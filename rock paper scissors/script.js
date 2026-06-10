@@ -1,1 +1,4 @@
-alert(NaN + 1);
+let text = "sfkjsbkvsndvkbskdcnvsb";
+let length = text.length;
+
+console.log(length);
