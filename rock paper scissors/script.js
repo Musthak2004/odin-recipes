@@ -1,4 +1,5 @@
-let text = "sfkjsbkvsndvkbskdcnvsb";
-let length = text.length;
-
-console.log(length);
+if (iceCreanVanOutside || houseStatus === "on fire") {
+    console.log("You should leave the house quickly.");
+} else {
+    console.log("Probably should just stay in then.");
+}
