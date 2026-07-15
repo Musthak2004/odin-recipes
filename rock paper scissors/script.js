@@ -1,5 +1,0 @@
-if (iceCreanVanOutside || houseStatus === "on fire") {
-    console.log("You should leave the house quickly.");
-} else {
-    console.log("Probably should just stay in then.");
-}
