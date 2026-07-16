@@ -1,10 +1,10 @@
-let students = 30;
+const pi = 3.14159;
+let radius;
+let circumference;
 
-students = students + 1;
-students = students - 1;
-students = students * 2;
-students = students / 2;
-students = students ** 2;
-let extraStudents = students % 3;
-
-console.log(students);
+document.getElementById('mySubmit').onclick = function() {
+    radius = document.getElementById('myText').value;
+    radius = Number(radius);
+    circumference = 2 * pi * radius;
+    document.getElementById('myH3').textContent = circumference;
+}
